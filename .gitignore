@@ -1,0 +1,5 @@
+# vscode 环境文件 
+.vscode/*
+
+# npm包文件目录
+node_modules
