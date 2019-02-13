@@ -1,23 +1,85 @@
 
 .normal {
   font-family: Georgia, sans-serif;
-  margin-top: 4em;
   text-align: center;
 }
 
-.welcome {
-  height: 328px;
-  background: url(../assets/yay.jpg) no-repeat center 0;
-  background-size: 388px 328px;
+.antdCarousel div{
+  text-align: center;
+  height: 80vh; 
+  background: #fff;
 }
 
-.list {
-  font-size: 1.2em;
-  margin-top: 1.8em;
-  list-style: none;
-  line-height: 1.5em;
+.antdCarousel div h3 {
+  color: #fff;
 }
 
-.list code {
-  background: #f7f7f7;
+.headerStyle{
+  background: #fff;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.siderStyle{
+  background: #fff;
+  height: 100vh;
+  width: 15vw;
+}
+
+.contentStyle{
+  height: 80vh;
+}
+
+.footerInfo{
+  color: #bdc3c7;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+
+.headerLeftBox{
+  
+}
+
+.mainTitle{
+  color: #6F1E51;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.subTitle{
+  margin-left: 10px;
+  color: #B53471;
+  font-size: 5px;
+  line-height: 5px;
+  letter-spacing: 2px;
+}
+
+.headerRightBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 200px;
+  color: #bdc3c7;
+}
+
+.iconList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.carouselDivbox img{
+  height: 100%;
+  width: 100%;
+}
+
+.footerStyle{
+  background: #fff;
 }

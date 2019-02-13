@@ -15,7 +15,7 @@ const { SubMenu } = Menu;
 //   icon: <Icon type="setting" />,
 const getIcon = icon => {
   if (typeof icon === 'string' && isUrl(icon)) {
-    return <img src={icon} alt="icon" className={styles.icon} />;
+    return <Icon component={() => <img src={icon} alt="icon" className={styles.icon} />} />;
   }
   if (typeof icon === 'string') {
     return <Icon type={icon} />;
@@ -24,7 +24,6 @@ const getIcon = icon => {
 };
 
 export default class BaseMenu extends PureComponent {
-
   /**
    * 获得菜单子节点
    * @memberof SiderMenu
